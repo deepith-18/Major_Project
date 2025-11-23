@@ -1,0 +1,1 @@
+{"repos": [{"repoId": "distilbert-base-uncased", "repoType": "model", "commitHash": "12040accade4e8a0f71eabdb258fecc2e7e948be", "filePaths": ["tokenizer.json", "config.json", "model.safetensors", "tokenizer_config.json", "vocab.txt"]}]}

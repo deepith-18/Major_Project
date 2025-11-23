@@ -1,0 +1,91 @@
+# ----------------------------------------
+# Python General
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# ----------------------------------------
+# Virtual Environments
+# ----------------------------------------
+.venv/
+venv/
+env/
+env*/
+.venv*/
+
+# ----------------------------------------
+# IDE / Editor Settings
+# ----------------------------------------
+.vscode/
+.idea/
+*.swp
+
+# ----------------------------------------
+# OS Files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# Log Files
+# ----------------------------------------
+*.log
+
+# ----------------------------------------
+# Jupyter Notebook Checkpoints
+# ----------------------------------------
+.ipynb_checkpoints/
+
+# ----------------------------------------
+# Machine Learning / Deep Learning Models
+# (VERY IMPORTANT: these files are big and break GitHub's 100MB limit)
+# ----------------------------------------
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.bin
+*.model
+
+# ----------------------------------------
+# PyTorch / Transformers Tokenizers
+# ----------------------------------------
+*.json
+*.txt
+
+# But KEEP your own project JSON files:
+!FakeReviewDetection_App/**/*.json
+!FakeReviewDetection_App/**/*.txt
+
+# ----------------------------------------
+# Env Files (Secrets)
+# ----------------------------------------
+.env
+.env.local
+.env.*.local
+
+# ----------------------------------------
+# Build / Distribution Folders
+# ----------------------------------------
+build/
+dist/
+*.spec
+
+# ----------------------------------------
+# Cache
+# ----------------------------------------
+.cache/
+*.cache
+**/__pycache__/
+
+# ----------------------------------------
+# Node (if your project ever uses frontend)
+# ----------------------------------------
+node_modules/
